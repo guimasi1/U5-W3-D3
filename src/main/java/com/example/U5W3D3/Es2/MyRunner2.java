@@ -36,10 +36,10 @@ public class MyRunner2 implements CommandLineRunner {
         section.addPage(page4);
         book.addPage(section);
         book.addPage(section2);
-        System.out.println("Book's total pages: " + book.getTotalNumberOfPages());
+   /*     System.out.println("Book's total pages: " + book.getTotalNumberOfPages());
         System.out.println("First Section's total pages : " + section.getTotalNumberOfPages());
         System.out.println("Second Section's total pages: " + section2.getTotalNumberOfPages());
-        book.print();
+        book.print();*/
     }
 
 
